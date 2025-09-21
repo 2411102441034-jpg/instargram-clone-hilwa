@@ -1,0 +1,23 @@
+/* Mengatur ukuran foto profil */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Mengatur ukuran gambar feed menjadi kotak sempurna */
+.feed-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Penyesuaian untuk layar mobile */
+@media (max-width: 576px) {
+  .profile-img {
+    width: 90px;
+    height: 90px;
+  }
+}
